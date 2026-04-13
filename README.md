@@ -1,7 +1,6 @@
 # Ejercicios de Grafos - Estructura de Datos II
 
-Esto es lo que hice para el primer parcial de Estructura de Datos II.  
-Son dos ejercicios de grafos en Java, hechos desde cero sin usar librerías raras.
+Son dos ejercicios de grafos en Java, hechos desde cero sin usar librerías externas.
 
 ---
 
@@ -9,11 +8,11 @@ Son dos ejercicios de grafos en Java, hechos desde cero sin usar librerías rara
 
 - **GrafoLista** - Implementación con lista de adyacencia.  
   Sirve para grafos dirigidos y ponderados.  
-  Tiene BFS con cola (la hice yo mismo, `LinkedQueue`) y DFS recursivo.
+  Tiene BFS con cola (hecha a mano, `LinkedQueue`) y DFS recursivo.
 
 - **GrafoMatriz** - Implementación con matriz de adyacencia.  
   Para grafos no dirigidos.  
-  El constructor recibe la matriz directamente, como pedía el ejercicio.  
+  El constructor recibe la matriz directamente, como pedían los ejercicios.  
   También tiene BFS con cola y DFS recursivo.
 
 ---
@@ -29,7 +28,7 @@ Ejemplo:
 
 ---
 
-## ¿Qué problema resuelven?
+## ¿Qué problemas resuelven?
 
 ### Ejercicio 1 (dirigido y ponderado)
 El grafo tiene flechas y pesos.  
@@ -66,7 +65,7 @@ El programa muestra:
 
 ## ¿Por qué hice dos implementaciones?
 
-Porque el profesor pidió que en un ejercicio usáramos lista de adyacencia y en el otro matriz.  
+Porque los ejercicios pedían una con lista de adyacencia y otra con matriz.  
 Además, así se entiende mejor cómo funcionan las dos formas de representar un grafo.
 
 ---
