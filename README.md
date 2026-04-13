@@ -20,7 +20,7 @@ Son dos ejercicios de grafos en Java, hechos desde cero sin usar librerías exte
 ## ¿Cómo se corre?
 
 Cada proyecto está separado en su carpeta.  
-Abrís el que quieras en NetBeans (o cualquier IDE) y ejecutás la clase que termina en `Main`.
+Abre el que quieras en NetBeans (o cualquier IDE) y ejecutás la clase que termina en `Main`.
 
 Ejemplo:  
 `GrafoListaMain` para el primer ejercicio.  
@@ -90,5 +90,4 @@ Solo hay que cambiar los datos en la controladora (`CGrafoLista` o `CGrafoMatriz
 ## Autor
 
 Yosbiel Alejandro Díaz Cala  
-Ingeniería Informática - Universidad de Pinar del Río  
-Segundo año
+Ingeniería Informática - Universidad de Pinar del Río - 2do Año
